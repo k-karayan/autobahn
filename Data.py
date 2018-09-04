@@ -22,3 +22,8 @@ class Data:
 
     def data_to_csv(self, df_data, filename):
         df_data.to_csv(filename)
+
+    def load_from_csv(self, filename):
+        df_data = pd.read_csv(filename)
+
+        return df_data
