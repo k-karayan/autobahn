@@ -47,4 +47,5 @@ Autobahn can be executed either as a script or though an IDE.
     ```
 
 2. To execute through an IDE (Recommended: Pycharm)
+
 Open Pycharm IDE, and import project by clicking on File -> Open -> Navigate to the stackstats source files.
