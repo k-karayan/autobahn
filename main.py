@@ -25,4 +25,4 @@ print 'Average close prices saved in files/cryptocurrency_daily_data.csv'
 
 # relative spans
 relative_spans = calculations.get_relative_spans(close_prices)
-print 'The week with minimum relative span is: ' + relative_spans.idxmin(axis=1)
+print 'The week with greatest relative span is: ' + relative_spans.idxmax(axis=1)
